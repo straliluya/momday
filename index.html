@@ -36,11 +36,13 @@
             display: none;
             text-align: center;
             line-height: 1.6;
-            max-width: 400px; /* Ограничение ширины текста */
+            max-width: 90%; /* Ограничение ширины текста для мобильных */
             padding: 20px;
             background-color: #fff;
             border-radius: 10px; /* Легкие скругления углов */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            overflow-y: auto; /* Разрешаем прокрутку внутри блока */
+            max-height: 70vh; /* Ограничиваем высоту блока */
         }
         canvas {
             position: absolute;
