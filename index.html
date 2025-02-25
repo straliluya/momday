@@ -15,8 +15,8 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            height: auto; /* Убираем фиксированную высоту */
-            overflow-y: auto; /* Разрешаем прокрутку */
+            height: 100vh; /* Возвращаем фиксированную высоту */
+            overflow: hidden; /* Блокируем прокрутку */
         }
         .item {
             width: 50px;
@@ -36,12 +36,4 @@
             display: none;
             text-align: center;
             line-height: 1.6;
-            max-width: 90%; /* Ограничение ширины текста для мобильных */
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px; /* Легкие скругления углов */
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-        canvas {
-            position: absolute;
-            top: 0
+            max-width: 400px; /* Ограничение ширины текст
